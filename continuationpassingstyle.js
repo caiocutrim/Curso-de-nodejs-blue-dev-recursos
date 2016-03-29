@@ -33,6 +33,7 @@ sayName("Diego Candido")
   });
 });
 
+
 Promise.all([sayName("Caio Cutrim"), sayName("Diego Candido"), sayName("Rodrigo Oler")]).then((data) => {
   console.log(" com all " + data);
 });
